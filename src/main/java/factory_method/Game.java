@@ -7,8 +7,8 @@ public class Game {
         Game game = new Game();
         Map map = game.createMap();
         map.display(5,10);
-    };
+    }
     public Map createMap() {
         return new WildernessMap();
-    };
+    }
 }

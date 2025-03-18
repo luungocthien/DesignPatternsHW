@@ -9,6 +9,6 @@ public abstract class Map {
             }
             System.out.println("");
         }
-    };
+    }
     public abstract Tile createTile();
 }
